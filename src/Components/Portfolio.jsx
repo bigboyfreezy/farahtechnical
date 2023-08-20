@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/bg3.webp";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "A nice portfolio Image";
 
 /**
  * Project list
@@ -30,29 +30,22 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
+
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Hospital App",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Its an app that bridges the gap between the user and the doctor. It helps the user to book an appointment with the doctor and also helps the doctor to manage his appointments.",
+    url: "https://github.com/bigboyfreezy/fabemed",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "Property Management System",
+    description:"A system that enables property owners to manage their properties and tenants.",
+    url: "https://github.com/bigboyfreezy/property1",
   },
   {
     title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    description:"All you need to Build an AI web app using Azure by using Python and Flask",
+    url: "https://medium.com/@abdifarah076/8d96062e3988",
   },
 ];
 
